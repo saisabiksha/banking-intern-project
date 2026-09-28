@@ -1,0 +1,144 @@
+{
+    "519543": {
+        "name": "sabi",
+        "phone": "",
+        "pin": "9876",
+        "account_number": "519543",
+        "balance": 2055,
+        "transaction_history": [
+            {
+                "transaction_type": "Deposit",
+                "amount": 5000,
+                "date": "2026-09-28",
+                "time": "18:20:25",
+                "description": "Deposit of \u20b95000"
+            },
+            {
+                "transaction_type": "Deposit",
+                "amount": 1000,
+                "date": "2026-09-28",
+                "time": "18:32:47",
+                "description": "Deposit of \u20b91000"
+            },
+            {
+                "transaction_type": "Withdrawal",
+                "amount": 2000,
+                "date": "2026-09-28",
+                "time": "18:35:31",
+                "description": "Withdrawal of \u20b92000"
+            },
+            {
+                "transaction_type": "Withdrawal",
+                "amount": 500,
+                "date": "2026-09-28",
+                "time": "18:38:09",
+                "description": "Withdrawal of \u20b9500"
+            },
+            {
+                "type": "Withdrawal",
+                "transaction_type": "Withdrawal",
+                "amount": 500,
+                "date": "2026-09-28",
+                "time": "18:42:22",
+                "description": "Withdrawal of \u20b9500"
+            },
+            {
+                "type": "Withdrawal",
+                "transaction_type": "Withdrawal",
+                "amount": 1000,
+                "date": "2026-09-28",
+                "time": "18:44:02",
+                "description": "Withdrawal of \u20b91000"
+            },
+            {
+                "type": "Transfer",
+                "amount": 400,
+                "date": "2026-09-28",
+                "time": "18:47:54",
+                "description": "Transferred to Account 999888"
+            },
+            {
+                "type": "Transfer",
+                "amount": 1000,
+                "date": "2026-09-28",
+                "time": "18:50:17",
+                "description": "Transferred to Account 909223"
+            },
+            {
+                "transaction_type": "Deposit",
+                "amount": 5000,
+                "date": "2026-09-28",
+                "time": "18:52:54",
+                "description": "Deposit of \u20b95000"
+            },
+            {
+                "type": "Withdrawal",
+                "transaction_type": "Withdrawal",
+                "amount": 600,
+                "date": "2026-09-28",
+                "time": "18:59:18",
+                "description": "Withdrawal of \u20b9600"
+            },
+            {
+                "type": "Transfer",
+                "amount": 600,
+                "date": "2026-09-28",
+                "time": "19:00:35",
+                "description": "Transferred to Account 909223"
+            },
+            {
+                "type": "Transfer",
+                "amount": 2345,
+                "date": "2026-09-28",
+                "time": "19:01:43",
+                "description": "Transferred to Account 909223"
+            }
+        ]
+    },
+    "999888": {
+        "name": "Bob Receiver",
+        "phone": "9876500000",
+        "pin": "1111",
+        "account_number": "999888",
+        "balance": 500,
+        "transaction_history": [
+            {
+                "type": "Transfer Received",
+                "amount": 400,
+                "date": "2026-09-28",
+                "time": "18:47:54",
+                "description": "Received from Account 519543"
+            }
+        ]
+    },
+    "909223": {
+        "name": "bhuvi",
+        "phone": "9842402122",
+        "pin": "2345",
+        "account_number": "909223",
+        "balance": 3945,
+        "transaction_history": [
+            {
+                "type": "Transfer Received",
+                "amount": 1000,
+                "date": "2026-09-28",
+                "time": "18:50:17",
+                "description": "Received from Account 519543"
+            },
+            {
+                "type": "Transfer Received",
+                "amount": 600,
+                "date": "2026-09-28",
+                "time": "19:00:35",
+                "description": "Received from Account 519543"
+            },
+            {
+                "type": "Transfer Received",
+                "amount": 2345,
+                "date": "2026-09-28",
+                "time": "19:01:43",
+                "description": "Received from Account 519543"
+            }
+        ]
+    }
+}
